@@ -28,4 +28,4 @@ vim.api.nvim_set_keymap('n', '<A-k>', ':m .-2<CR>', {noremap = true, silent = tr
 vim.api.nvim_set_keymap('v', '<A-j>', ':m \'>+1<CR>gv=gv', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('v', '<A-k>', ':m \'<-2<CR>gv=gv', {noremap = true, silent = true})
 
-vim.api.nvim_set_keymap('n', '<leader>b', ":Lexplore<cr>", {noremap = true, silent = true}) -- shortcut to start  netrw
+vim.api.nvim_set_keymap('n', '<leader>hh', ":noh<cr>", {noremap = true, silent = true}) -- shortcut to start  netrw

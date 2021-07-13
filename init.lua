@@ -7,7 +7,8 @@ require('variables')
 vim.api.nvim_exec(
 [[
 call plug#begin('~/AppData/Local/nvim-data/site/pack/plugged/start')
-  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'tpope/vim-vinegar'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
 ]]
 ,true)
